@@ -1,0 +1,38 @@
+/*Header Elements*/
+.jumbotron{
+    background-image: linear-gradient(red,grey);
+    font-family: 'Righteous', cursive;
+    margin-bottom: 0rem;
+}
+.lead{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+/*Contact form Element*/
+.box1 {
+    padding: 1cm;
+    margin:1rem;
+    border-style: solid;
+    border-color: grey;
+}
+.line1{
+    padding: 1cm;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 10rem;
+    border-style: solid;
+    border-color: grey;
+    
+    background:repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        #ccc 10px,
+        #ccc 20px
+    ),
+        linear-gradient(
+        to bottom,
+        #eee,
+        #999
+  );
+}
